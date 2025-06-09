@@ -1,0 +1,21 @@
+<nav class="navbar">
+        <div class="left-section">
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+                <!--  -->
+            </div>
+            <div class="logo">
+                <img src="download.png" alt="Logo" />
+            </div>
+            <div class="logo-text">
+                <span>Skillsphere</span>
+            </div>
+        </div>
+        <!-- <div class="profile">
+
+            <img src="https://fontawesome.com/icons/user?f=classic&s=solid" alt="User Profile" />
+        </div> -->
+        <div class="profile">
+            <i class="fas fa-user"></i> <!-- Font Awesome User Icon -->
+        </div>
+    </nav>

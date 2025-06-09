@@ -1,0 +1,70 @@
+/* App.css or index.css or your main CSS file */
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.start-grid{
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap:10px;
+    grid-template-areas:
+    "two one"
+    "three one"
+    "four one";
+}
+.item-grid{
+
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.item1{
+
+    grid-area: one;
+    padding: 50px 0;
+}
+.item2{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-size:5rem;
+    color:#1A90E4;
+    font-weight: bold;
+}
+.item3{
+    width: 580px;
+    height: 280px;
+    top: 406px;
+    left: 360px;
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 180px;
+
+}
+.nav-title {
+    color: #1A90E4;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right: 30px;
+}
+
+.nav-title:hover {
+    color: blue; /* Change color on hover */
+    cursor: pointer;
+}
+
+/*body {*/
+/*    background: rgb(196,196,196);background: linear-gradient(90deg, rgba(196,196,196,1) 46%, rgba(0,245,255,1) 97%);background: rgb(174,238,180);background: radial-gradient(circle, rgba(174,238,180,1) 0%, rgba(148,187,233,1) 100%);*/
+/*}*/
+
+
+
+

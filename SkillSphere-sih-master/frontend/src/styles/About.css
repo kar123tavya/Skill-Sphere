@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.about-us-wrapper {
+  padding: 20px;
+  background-color: #f5f5f5; /* Optional background for the whole section */
+}
+
+.about-us-container {
+  padding: 20px;
+  background-color: white;
+  color: #333;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-us-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-us-header h2 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.info-icon {
+  background-color: #333;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.about-us-container hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 10px 0;
+}
+
+.about-us-container p {
+  margin: 10px 0 0;
+  line-height: 1.6;
+}

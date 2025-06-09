@@ -1,0 +1,141 @@
+.what-v-lab-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #EFF5F3;
+  ;
+}
+
+.v-lab-intro-container {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.v-lab-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  transition: color 0.3s ease;
+  border-bottom: 3px solid black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.v-lab-intro:hover{
+  color: blue;
+}
+
+.v-lab-content {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: right;
+  color: #615E5E;
+  width: 400px;
+  margin-left: auto;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Slightly more pronounced shadow */
+}
+
+.v-lab-start-btn {
+  width: 184px;
+  height: 62px;
+  top: 312px;
+  left: 104px;
+  padding: 0px 49px 0px 50px;
+  border-radius: 10px;
+  background-color: #6FCD58;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  transition: transform 0.3s ease , box-shadow 0.3s ease;
+}
+
+.v-lab-start-btn:hover{
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0 , 0 , 0 , 0.3);
+}
+
+.v-lab-image {
+  width: 771px;
+  height: 405px;
+}
+
+.features-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.lab-features {
+  width: 231px;
+  height: 226px;
+  padding: 12px;
+  border-radius: 15px;
+  background-color: #b4d8e6;
+  box-shadow: 0px 4px 100px 0px #0000001F;
+  transition: transform 0.2s ease;
+}
+
+.lab-features:hover{
+  transform: scale(1.05);
+}
+
+.lab-features-title {
+  width: 206px;
+  font-family: 'Recursive', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: #000000;
+}
+
+.lab-features-content {
+  width: 132px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #726F6F;
+  margin-left: 36px;
+}
+
+.lab-details-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.lab-precautions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+  width: 850px;
+  height: 300px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.lab-icon{
+  width: 425px;
+  height: 425px;
+}
